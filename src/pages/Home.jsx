@@ -87,14 +87,16 @@ function Home() {
             placeholder="search here..."
             // onChange={(e) => setFilterText(e.target.value)}
             onChange={filterBtnHandler}
-            onMouseOut={resetBtnHandler}
+            // onMouseDown={resetBtnHandler}
+            // onMouseOut={resetBtnHandler}
+          
           ></input>
           {/* <button className="submitBtn" onClick={filterBtnHandler}>
           Search
         </button> */}
-          {/* <button className="submitBtn" onClick={resetBtnHandler}>
+          <button className="submitBtn" onClick={resetBtnHandler}>
           Reset
-        </button> */}
+        </button>
         </div>
 
         <div className="listMain cardContainer">
